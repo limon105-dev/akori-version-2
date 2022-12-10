@@ -1,0 +1,854 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /* ===========================================
+             navbar part start
+    ============================================*/
+    h2,
+    .h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .banner .banner-text-shape::before {
+        right: 255px;
+    }
+
+    /* ===========================================
+             navbar part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    p {
+        font-size: 15px;
+    }
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    h4,
+    .h4 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    /* ===========================================
+             portfolio part end
+    ============================================*/
+
+    /* ===========================================
+             action part start
+    ============================================*/
+    h3,
+    .h3 {
+        font-size: 27px;
+    }
+
+    h5,
+    .h5 {
+        font-size: 18px;
+    }
+
+    /* ===========================================
+             action part end
+    ============================================*/
+
+    /* ===========================================
+                Blog page start
+    ============================================*/
+    .blog-single .popular-post-text h3 a {
+        font-size: 18px;
+    }
+
+    .blog-single .popular-post-text p {
+        padding-top: 10px;
+    }
+
+    /* ===========================================
+                Blog page end
+    ============================================*/
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* ===========================================
+             banner part start
+    ============================================*/
+    h2,
+    .h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .banner .banner-text-shape::before {
+        right: 240px;
+    }
+
+    /* ===========================================
+             banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    .about-section .swiper-wrapper .swiper-inner {
+        padding-left: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    /* ===========================================
+                Portfolio filter page start
+    ============================================*/
+    .btn-group button {
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        margin-right: 8px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+    }
+
+    /* ===========================================
+                Portfolio filter page end
+    ============================================*/
+
+    /* ===========================================
+                product part start
+    ============================================*/
+    h6,
+    .h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .product .mySwiper {
+        padding: 4px 65px;
+    }
+
+    .shop-item .overlay {
+        left: 15px;
+        top: 15px;
+        padding-top: 5px;
+        padding-right: 20px;
+        padding-bottom: 4px;
+        padding-left: 5px;
+    }
+
+    /* ===========================================
+                product single part end
+    ============================================*/
+
+    /* ===========================================
+             action part start
+    ============================================*/
+    h3,
+    .h3 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    h5,
+    .h5 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* ===========================================
+             action part end
+    ============================================*/
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+    .table> :not(caption)>*>* {
+        padding-right: 40px;
+    }
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+
+    /* ===========================================
+                blog page start
+    ============================================*/
+    .blog-single .popular-post-text h3 a {
+        font-size: 15px;
+    }
+
+    .blog-single .popular-post-text p {
+        padding-top: 10px;
+    }
+
+    /* ===========================================
+                blog page end
+    ============================================*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* ===========================================
+             navbar part start
+    ============================================*/
+    .navbar {
+        overflow-x: hidden;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ===========================================
+             navbar part end
+    ============================================*/
+
+    /* ===========================================
+            banner part start
+    ============================================*/
+    .section {
+        padding: 40px 0;
+    }
+
+    .banner::after {
+        display: none;
+    }
+
+    /* ===========================================
+             banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    .about-section .about-slider .swiper-pagination {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-section .about-slider .swiper-pagination .swiper-pagination-bullet {
+        margin: auto 10px;
+    }
+
+    .swiper-vertical>.swiper-pagination-bullets,
+    .swiper-pagination-vertical.swiper-pagination-bullets {
+        top: auto;
+    }
+
+    .about-img {
+        margin-top: 3rem;
+    }
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+                    about page start
+    ============================================*/
+    .page-header {
+        padding: 50px 0;
+    }
+
+    /* ===========================================
+                    about page end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    h5,
+    .h5 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /* ==========================================
+             portfolio part end
+    ============================================*/
+
+    /* ==========================================
+              product single page start
+    =============================================*/
+    .product .mySwiper2 {
+        padding-bottom: 40px;
+    }
+
+    .product .mySwiper {
+        margin-bottom: 35px;
+        padding: 23px 65px;
+    }
+
+    /* ==========================================
+              product single page end
+    =============================================*/
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+    .table> :not(caption)>*>* {
+        padding-right: 0;
+    }
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    .footer-header {
+        margin-top: 1rem;
+    }
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* ===========================================
+                 navbar part start
+    ============================================*/
+    .navbar {
+        overflow-x: hidden;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ===========================================
+                 navbar part end
+    ============================================*/
+
+    /* ===========================================
+            banner part start
+    ============================================*/
+    h1,
+    .h1 {
+        font-size: 56px;
+        line-height: 79px;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .banner::after {
+        display: none;
+    }
+
+    .banner .banner-text-shape::before {
+        display: none;
+    }
+
+    .banner-img::after {
+        right: 62px;
+    }
+
+    .banner-img::before {
+        right: 96px;
+    }
+
+    /* ===========================================
+             banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+    h3,
+    .h3 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .about-section {
+        padding: 50px 0;
+    }
+
+    .about-section .about-slider {
+        height: 300px;
+    }
+
+    .swiper-vertical>.swiper-pagination-bullets,
+    .swiper-pagination-vertical.swiper-pagination-bullets {
+        top: 41%;
+    }
+
+    .about-section .about-slider .swiper-pagination {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-section .about-slider .swiper-pagination .swiper-pagination-bullet {
+        margin: auto 10px;
+    }
+
+    .swiper-vertical>.swiper-pagination-bullets,
+    .swiper-pagination-vertical.swiper-pagination-bullets {
+        top: auto;
+    }
+
+    .about-img {
+        margin-top: 3rem;
+    }
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    /* ===========================================
+                    about page start
+    ============================================*/
+    .page-header {
+        padding: 50px 0;
+    }
+
+    /* ===========================================
+                    about page end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    h4,
+    .h4 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    h5,
+    .h5 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /* ===========================================
+             portfolio part end
+    ============================================*/
+
+    /* ==========================================
+              product single page start
+    =============================================*/
+    .product .mySwiper2 {
+        padding-bottom: 40px;
+    }
+
+    .product .mySwiper {
+        margin-bottom: 100px;
+        padding: 4px 65px;
+    }
+
+    /* ==========================================
+              product single page end
+    =============================================*/
+
+    /* ==========================================
+              action part start
+    =============================================*/
+    .action-bg {
+        margin-left: 0;
+    }
+
+    /* ==========================================
+              action part end
+    =============================================*/
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+    .table>thead {
+        display: none;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        text-transform: uppercase;
+        float: right;
+    }
+
+    .table> :not(caption)>*>* {
+        padding-right: 0;
+        display: block;
+    }
+
+    .cart-text p {
+        display: none;
+    }
+
+    .cart-subtotal {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    .footer-header {
+        margin-top: 1rem;
+    }
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}
+
+
+@media (max-width: 575px) {
+
+    /* ===========================================
+             navbar part start
+    ============================================*/
+    .navbar {
+        overflow-x: hidden;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ===========================================
+             navbar part end
+    ============================================*/
+
+    /* ===========================================
+            banner part start
+    ============================================*/
+    .section {
+        padding: 30px 0;
+    }
+
+    h1,
+    .h1 {
+        font-size: 29px;
+        line-height: 50px;
+    }
+
+    h2,
+    .h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .banner::after {
+        display: none;
+    }
+
+    .banner-img .greetings {
+        left: -8px;
+        bottom: -85px;
+    }
+
+    .banner .block-text {
+        padding-top: 30px;
+    }
+
+    .banner .banner-text-shape::before {
+        display: none;
+    }
+
+    .banner-img::before {
+        right: -4px;
+    }
+
+    .banner-img::after {
+        right: -38px;
+    }
+
+    /* ===========================================
+             banner part end
+    ============================================*/
+
+    /* ===========================================
+             about part end
+    ============================================*/
+
+    h3,
+    .h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    p,
+    .p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .about-section {
+        padding: 50px 0;
+    }
+
+    .about-section .about-slider {
+        height: auto;
+    }
+
+    .about-slider .swiper-wrapper .swiper-slide {
+        padding-bottom: 60px;
+    }
+
+    .about-section .about-slider .swiper-pagination {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-section .about-slider .swiper-pagination .swiper-pagination-bullet {
+        margin: auto 10px;
+    }
+
+    .about-img {
+        margin-top: 3rem;
+    }
+
+    .swiper-vertical>.swiper-pagination-bullets,
+    .swiper-pagination-vertical.swiper-pagination-bullets {
+        top: auto;
+    }
+
+    /* ===========================================
+                    about part end
+    ============================================*/
+
+    /* ===========================================
+                    about page start
+    ============================================*/
+    .page-header {
+        padding: 50px 0;
+    }
+
+    .page-title {
+        font-size: 32px;
+    }
+
+    /* ===========================================
+                    about page end
+    ============================================*/
+
+    /* ===========================================
+             portfolio part start
+    ============================================*/
+    .portfolio-shape-1 {
+        display: none;
+    }
+
+    .portfolio-shape-2 {
+        display: none;
+    }
+
+    h4,
+    .h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    h5,
+    .h5 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* ===========================================
+             portfolio part end
+    ============================================*/
+
+    /* ===========================================
+                Portfolio filter page start
+    ============================================*/
+    .btn-group button {
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        margin-right: 8px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+        font-size: 16px;
+    }
+
+    /* ===========================================
+                Portfolio filter page end
+    ============================================*/
+
+    /* ==========================================
+              shope part start
+    =============================================*/
+    .shop-svg-1 {
+        display: none;
+    }
+
+    .shop-svg-2 {
+        display: none;
+    }
+
+    .shop-svg-3 {
+        position: absolute;
+        display: none;
+    }
+
+    .shop-svg-4 {
+        display: none;
+    }
+
+    /* ==========================================
+              shope part end
+    =============================================*/
+
+    /* ==========================================
+              product single page start
+    =============================================*/
+    .product .mySwiper {
+        padding: 0px 60px;
+        margin-bottom: 100px;
+    }
+
+    .product .mySwiper2 {
+        padding-bottom: 35px;
+    }
+
+    .product .quantity .quantity-button button {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .product .size-list button {
+        margin-right: 5px;
+    }
+
+    /* ==========================================
+              product single page end
+    =============================================*/
+    
+    /* ==========================================
+              blog single page start
+    =============================================*/
+    .blog-single {
+        padding: 50px 0 50px;
+    }
+    /* ==========================================
+              blog single page end
+    =============================================*/
+
+    /* ==========================================
+              action part start
+    =============================================*/
+    .action-bg {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+
+    /* ==========================================
+              action part end
+    =============================================*/
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+    h6,
+    .h6 {
+        font-size: 15px !important;
+    }
+
+    .table>thead {
+        display: none;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        text-transform: uppercase;
+        float: right;
+    }
+
+    .table> :not(caption)>*>* {
+        padding-right: 0;
+        display: block;
+    }
+
+    .cart-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .cart-text p {
+        display: none;
+    }
+
+    .cart-subtotal {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    /* =======================================
+                  cart page start
+    =========================================*/
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+    .footer-header {
+        margin-top: 1rem;
+    }
+
+    /* ==========================================
+              footer part start
+    =============================================*/
+}

@@ -1,0 +1,1720 @@
+/* =======================================
+           common css start
+=========================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #212121;
+}
+
+p,
+.p {
+  color: #555555;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.text-color {
+  color: #212121 !important;
+}
+
+h1,
+.h1 {
+  font-size: 58px;
+  line-height: 79px;
+  margin-bottom: 0;
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 0;
+}
+
+h3,
+.h3 {
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 0;
+}
+
+h4,
+.h4 {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 0;
+}
+
+h5,
+.h5 {
+  font-size: 21px;
+  line-height: 29px;
+  margin-bottom: 0;
+}
+
+h6,
+.h6 {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  margin-bottom: 0;
+
+}
+
+a:hover {
+  color: #FECC51;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.bg-pattern {
+  background-image: url(../images/about/about-backgound.jpg);
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.color-c4 {
+  color: #C4C4C4;
+}
+
+.section-title {
+  text-transform: capitalize;
+  color: #212121;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  width: fit-content;
+  margin: auto auto 48px;
+  position: relative;
+}
+
+.section-title:before {
+  position: absolute;
+  content: "";
+  left: -15px;
+  top: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #FECC51;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  right: -20px;
+  bottom: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #FECC51;
+}
+
+.section-title span {
+  position: relative;
+}
+
+.section-title span::after {
+  position: absolute;
+  content: "";
+  right: 5px;
+  bottom: -10px;
+  width: 7px;
+  height: 7px;
+  background-color: #F5F4F2;
+}
+
+.page-header {
+  padding: 100px 0;
+}
+
+.page-title {
+  text-transform: capitalize;
+  color: #212121;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 79px;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+}
+
+.page-title::after {
+  position: absolute;
+  content: "";
+  left: -40px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  background-color: #FECC51;
+}
+
+.page-title::before {
+  position: absolute;
+  content: "";
+  right: -60px;
+  bottom: 3px;
+  width: 42px;
+  height: 35px;
+  background-color: #FECC51;
+}
+
+.page-title span {
+  position: absolute;
+  content: "";
+  right: 0px;
+  bottom: -10px;
+  width: 18px;
+  height: 18px;
+  background-color: #F5F4F2;
+}
+
+.primary-btn a {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Spartan";
+  line-height: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.primary-btn a:hover {
+  color: #212121;
+  background-color: #FECC51;
+  border-color: #FECC51;
+}
+
+.secondary-btn a {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border: 1px solid #212121;
+  color: #fff;
+  background-color: #212121;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  display: inline-block;
+}
+
+.secondary-btn a:hover {
+  color: #212121;
+  background-color: #FECC51;
+  border-color: #FECC51;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Spartan';
+}
+
+/* =======================================
+           comon css end
+=========================================*/
+
+/* =======================================
+           navbar css start
+=========================================*/
+.navbar .nav-link {
+  padding: 0 !important;
+  color: #555555;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-right: 16px;
+  margin-left: 16px;
+  transition: all linear 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #FECC51;
+}
+
+.navbar-expand-lg .nav-link i {
+  height: 3px;
+  padding-left: 8px;
+}
+
+.navbar-expand-lg .dropdown .dropdown-menu {
+  transition: all 0.2s ease-in-out;
+  display: block;
+  pointer-events: none;
+  opacity: 0;
+  margin: 0.625rem 0 0 0;
+}
+
+.navbar-expand-lg .dropdown .dropdown-menu .dropdown-item {
+  color: #555555;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.navbar-expand-lg .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #FECC51;
+}
+
+.navbar-expand-lg .dropdown:hover .dropdown-menu {
+  opacity: 1;
+  pointer-events: auto;
+  margin: 0;
+}
+
+.navbar-toggler {
+  padding: 10px;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.side-btn-wrapper .side-btn {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.side-btn-wrapper .side-btn span {
+  opacity: 1;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #212121;
+  position: absolute;
+  transform: rotate(0deg);
+  transition: .4s ease-in-out;
+}
+
+.side-btn-wrapper .side-btn span:nth-child(1) {
+  top: 0;
+}
+
+.side-btn-wrapper .side-btn span:nth-child(2) {
+  top: 9px;
+}
+
+.side-btn-wrapper .side-btn span:nth-child(3) {
+  top: 18px;
+}
+
+.navbar-toggler.collapsed .side-btn-wrapper .side-btn span:nth-child(1) {
+  top: 0;
+  transform: translateY(0) rotate(0deg);
+  -webkit-transform: translateY(0) rotate(0deg);
+  -moz-transform: translateY(0) rotate(0deg);
+  -ms-transform: translateY(0) rotate(0deg);
+  -o-transform: translateY(0) rotate(0deg);
+}
+
+.navbar-toggler.collapsed .side-btn-wrapper .side-btn span:nth-child(2) {
+  top: 9px;
+  opacity: 1;
+  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+}
+
+.navbar-toggler.collapsed .side-btn-wrapper .side-btn span:nth-child(3) {
+  top: 18px;
+  transform: translateY(0px) rotate(0deg);
+  -webkit-transform: translateY(0px) rotate(0deg);
+  -moz-transform: translateY(0px) rotate(0deg);
+  -ms-transform: translateY(0px) rotate(0deg);
+  -o-transform: translateY(0px) rotate(0deg);
+}
+
+.side-btn-wrapper .side-btn span:nth-child(1) {
+  transform: translateY(9px) rotate(135deg);
+}
+
+.side-btn-wrapper .side-btn span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(60px);
+  -webkit-transform: translateX(60px);
+  -moz-transform: translateX(60px);
+  -ms-transform: translateX(60px);
+  -o-transform: translateX(60px);
+}
+
+.side-btn-wrapper .side-btn span:nth-child(3) {
+  transform: translateY(-9px) rotate(-135deg);
+}
+
+.navbar .btn-primary {
+  background-color: transparent;
+  color: #212121;
+  border: 1px solid transparent;
+}
+
+.btn:first-child:hover,
+:not(.btn-check)+.btn:hover {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.from-support {
+  color: #555;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  padding-top: 10px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.login {
+  padding-top: 32px;
+}
+
+.login p {
+  display: inline-block;
+}
+
+.login a {
+  color: #212121;
+  font-weight: 600;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.login a:hover {
+  color: #FECC51;
+}
+
+
+/* =======================================
+           navbar css end
+=========================================*/
+
+/* =======================================
+           banner css start
+=========================================*/
+.banner {
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 64px;
+  padding-bottom: 100px;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  left: 15%;
+  top: 28%;
+  width: 20px;
+  height: 20px;
+  background-color: #DEDEDE;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  left: 19%;
+  top: 38%;
+  width: 46px;
+  height: 46px;
+  background-color: #FEF4DB;
+}
+
+.banner-shape {
+  position: relative;
+}
+
+.banner-shape::after {
+  content: "";
+  position: absolute;
+  right: -45%;
+  top: 18%;
+  width: 20px;
+  height: 20px;
+  background-color: #FBD884;
+}
+
+.banner-shape::before {
+  content: "";
+  position: absolute;
+  left: 100px;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #FECC51;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.banner-img::before {
+  content: "";
+  position: absolute;
+  right: 104px;
+  bottom: 65px;
+  width: 15px;
+  height: 15px;
+  background-color: #FECC51;
+}
+
+.banner-img::after {
+  content: "";
+  position: absolute;
+  right: 70px;
+  bottom: 0;
+  width: 49px;
+  height: 49px;
+  background-color: #dedede;
+}
+
+.banner-img .greetings {
+  position: absolute;
+  left: 50px;
+  bottom: -75px;
+  width: 124px;
+  height: 120px;
+  background-color: #212121;
+  border: 11px solid #ffffff;
+  line-height: 105px;
+}
+
+.banner-text-shape {
+  position: relative;
+  padding-top: 10px;
+  font-weight: 400;
+  text-align: end;
+}
+
+.banner .banner-text-shape::before {
+  content: "";
+  position: absolute;
+  content: "";
+  right: 272px;
+  bottom: 3px;
+  width: 14px;
+  height: 14px;
+  background-color: #FECC51;
+}
+
+/* =======================================
+           banner css end
+=========================================*/
+
+/* =======================================
+           About css start
+=========================================*/
+.about-section {
+  padding: 100px 0;
+}
+
+.about-slider {
+  height: 245px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.about-section .about-slider .swiper-inner {
+  padding-left: 55px;
+}
+
+.about-section .about-slider .swiper-pagination {
+  position: absolute;
+  right: auto;
+}
+
+.about-section .about-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #212121;
+  display: inline-block;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+  opacity: 1;
+}
+
+.about-section .about-slider .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 5px solid #FECC51;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contact-list li a {
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.contact-list li a:hover {
+  color: #FECC51 !important;
+}
+
+/* =======================================
+           About css end
+=========================================*/
+
+/* =======================================
+           About page start
+=========================================*/
+.content h2 {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 24px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  padding-bottom: 64px;
+}
+
+/* =======================================
+           About end start
+=========================================*/
+
+/* =======================================
+           portfolio css start
+=========================================*/
+.portfolio-shape {
+  position: relative;
+}
+
+.portfolio-shape-1 {
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+}
+
+.portfolio-shape-2 {
+  position: absolute;
+  left: 55px;
+  bottom: -55px;
+}
+
+.portfolio-item {
+  background-color: #F5F4F2;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.7);
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.portfolio-item:hover .overlay {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.portfolio-item img {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+/* =======================================
+           portfolio css end
+=========================================*/
+
+/* =======================================
+           portfolio filter css start
+=========================================*/
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-group button {
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border: 1px solid #999999;
+  margin-top: 0;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  background-color: transparent;
+  text-transform: capitalize;
+  color: #212121;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Spartan";
+  line-height: 25px;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+.btn-group button:focus {
+  background-color: #212121;
+  color: #fff;
+}
+
+/* =======================================
+           portfolio filter css end
+=========================================*/
+
+/* =======================================
+           shop css start
+=========================================*/
+.shop-item {
+  background-color: #F5F4F2;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.shop-item .overlay {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  padding-top: 10px;
+  padding-right: 73px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #212121;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.shop-item:hover .overlay {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.shop-item img {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.shop-item:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.shop-svg {
+  position: relative;
+}
+
+.shop-svg-1 {
+  position: absolute;
+  left: 0;
+  bottom: 35px;
+}
+
+.shop-svg-2 {
+  position: absolute;
+  left: 45px;
+  bottom: 10px;
+}
+
+.shop-svg-3 {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 28%;
+}
+
+.shop-svg-4 {
+  position: absolute;
+  right: 75px;
+  bottom: 25%;
+}
+
+/* =======================================
+           shop css end
+=========================================*/
+
+/* =======================================
+        product single page start
+=========================================*/
+.product {
+  padding: 100px 0;
+}
+
+.product .mySwiper2 {
+  height: auto !important;
+  width: 100% !important;
+  padding-bottom: 90px;
+}
+
+.product .mySwiper2 .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.product .mySwiper2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #F5F4F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .mySwiper2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.product .swiper {
+  width: 100%;
+  height: 300px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product .mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 5px 65px;
+}
+
+.product .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.product .mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.product .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.product .mySwiper .swiper-button-next,
+.product .mySwiper .swiper-button-prev {
+  color: #fff;
+}
+
+.product .mySwiper .swiper-button-next::after {
+  padding-top: 50px;
+  padding-right: 18px;
+  padding-bottom: 50px;
+  padding-left: 18px;
+  background-color: #C4C4C4;
+}
+
+.product .mySwiper .swiper-button-prev::after {
+  padding-top: 50px;
+  padding-right: 18px;
+  padding-bottom: 50px;
+  padding-left: 18px;
+  background-color: #C4C4C4;
+}
+
+.price-border {
+  position: relative;
+}
+
+.price-border::after {
+  content: "";
+  position: absolute;
+  left: 43px;
+  top: 45%;
+  width: 40px;
+  height: 1px;
+  background-color: #555;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.price-offer {
+  color: #78C578;
+}
+
+.product .mask-list ul li {
+  list-style-type: disc;
+}
+
+.product .mask-list ul li p {
+  color: #212121;
+  line-height: 40px;
+}
+
+.product .quantity .quantity-button input {
+  width: 88px;
+  height: 48px;
+  background-color: transparent;
+  border: 2px solid #C4C4C4;
+  padding-left: 16px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Spartan";
+}
+
+.product .quantity .quantity-button button {
+  padding-top: 16px;
+  padding-right: 48px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  border: none;
+  background-color: #212121;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Spartan";
+  margin-left: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.product .quantity .quantity-button button:hover {
+  background-color: #FECC51;
+  color: #212121;
+}
+
+.product .size-list button {
+  padding-top: 11px;
+  padding-right: 18px;
+  padding-bottom: 11px;
+  padding-left: 18px;
+  background-color: #fff;
+  border: 1px solid #C9B59C;
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Spartan";
+  margin-right: 16px;
+}
+
+.product .size-list button:focus {
+  color: #fff;
+  background-color: #C9B59C;
+  border-color: #C9B59C;
+  outline: 0;
+}
+
+.product .view-size a {
+  color: #212121;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Spartan";
+  line-height: 19px;
+  display: inline-block;
+  margin-left: 8px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.product .view-size a:hover {
+  color: #FECC51;
+}
+
+.product .color-list button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  margin-right: 16px;
+}
+
+.product .color-list button:nth-child(1) {
+  background-color: #C9B59C;
+}
+
+.product .color-list button:nth-child(2) {
+  background-color: #78C578;
+}
+
+.product .color-list button:nth-child(3) {
+  background-color: #E06F6C;
+}
+
+.product .color-list button:nth-child(4) {
+  background-color: #F0B37E;
+}
+
+.product .color-list button:focus {
+  outline: 0;
+  box-shadow: 2px 2px 12px 4px rgba(0, 0, 0, 0.53);
+}
+
+.product .product-btn a {
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Spartan";
+  line-height: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  border: 1px solid #C4C4C4;
+  text-transform: capitalize;
+}
+
+.product .product-btn a .fa-arrow-left {
+  padding-right: 10px;
+}
+
+.product .product-btn a:hover {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.product .shop-more {
+  padding-top: 120px;
+}
+
+/* =======================================
+        product single page end
+=========================================*/
+
+/* =======================================
+           action css start
+=========================================*/
+.action-bg {
+  position: relative;
+  margin-left: calc(50vw - 400px);
+  background-color: #FECC51;
+  padding-top: 60px;
+  padding-left: 70px;
+  padding-bottom: 60px;
+}
+
+.action-bg::after {
+  position: absolute;
+  content: "";
+  left: -55px;
+  bottom: 0;
+  width: 34px;
+  height: 34px;
+  background-color: #212121;
+}
+
+.action-bg .secondary-btn a {
+  color: #212121;
+  background-color: #FECC51;
+  border-color: #212121;
+}
+
+
+.action-bg .secondary-btn a:hover {
+  color: #fff;
+  background-color: #212121;
+}
+
+/* =======================================
+           action css end
+=========================================*/
+
+/* =======================================
+           blog css start
+=========================================*/
+.blog-img {
+  background-color: #F5F4F2;
+  overflow: hidden;
+}
+
+.blog-img img {
+  padding: 10px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.blog-img:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.blog-text .h5 a {
+  display: block;
+  color: #212121;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.blog-text .h5 a:hover {
+  color: #FECC51;
+}
+
+/* =======================================
+           blog css end
+=========================================*/
+
+/* =======================================
+           blog page start
+=========================================*/
+.blog-btn a {
+  color: #555555;
+  background-color: #fff;
+  border-color: #C4C4C4;
+}
+
+.blog-btn a:hover {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.blog-btn a:focus {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
+/* =======================================
+           blog page end
+=========================================*/
+
+/* =======================================
+           blog-single page start
+=========================================*/
+.blog-single {
+  padding: 100px 0 100px;
+}
+
+.vintage-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #DEDEDE;
+  padding-top: 73px;
+  padding-bottom: 25px;
+}
+
+.vintage-icon .icon-text a {
+  color: #555555;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Spartan";
+  line-height: 12px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.vintage-icon .icon-text a:hover {
+  color: #FECC51;
+}
+
+.vintage-icon .icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.vintage-icon .icon-list li {
+  margin-left: 12px;
+}
+
+.vintage-icon .icon-list li a {
+  display: block;
+}
+
+.vintage-icon .icon-list li a i {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #C4C4C4;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #C4C4C4;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.vintage-icon .icon-list li a:hover i {
+  color: #212121;
+  border-color: #212121;
+}
+
+.post-row .blog-text h4 a {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Spartan";
+  line-height: 25px;
+  text-transform: capitalize;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.post-row .blog-text h4 a:hover {
+  color: #FECC51;
+}
+
+.post-row .blog-text .post-details {
+  color: #555555;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Spartan";
+  line-height: 10px;
+  padding-top: 10px;
+}
+
+.blog-single hr {
+  color: #212121 !important;
+}
+
+.blog-single .comment-item {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 18px;
+}
+
+.blog-single .comment-item .person-details {
+  color: #A8AAB2;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: "Spartan";
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+
+.blog-single .comment-item .replay-btn a {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Spartan";
+  line-height: 14px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.blog-single .comment-item .replay-btn a i {
+  padding-right: 5px;
+}
+
+.blog-single .comment-item .replay-btn a:hover {
+  color: #FECC51;
+}
+
+.blog-single .popular-post-img {
+  background-color: #F5F4F2;
+}
+
+.blog-single .popular-post-img img {
+  padding: 5px;
+}
+
+.blog-single .popular-post-text h3 a {
+  color: #212121;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "Spartan";
+  line-height: 29px;
+  text-transform: capitalize;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.blog-single .popular-post-text h3 a:hover {
+  color: #FECC51;
+}
+
+.blog-single .popular-post-text p {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Spartan";
+  line-height: 14px;
+  text-transform: capitalize;
+  padding-top: 16px;
+}
+
+.blog-single .tag-btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-single .tag-btn a {
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Spartan";
+  line-height: 14px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #F5F5F5;
+  text-transform: capitalize;
+}
+
+.blog-single .tag-btn a:hover {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
+/* =======================================
+           blog-single page end
+=========================================*/
+
+/* =======================================
+           contact page star
+=========================================*/
+.from-label {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.from-control {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  width: 100%;
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid #DEDEDE;
+}
+
+.from-control:focus-visible {
+  outline: none;
+}
+
+.from-control::-moz-placeholder {
+  color: #C4C4C4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.comment-from-btn button {
+  padding: 16px 32px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #212121;
+  text-transform: capitalize;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.comment-from-btn button:hover {
+  color: #212121;
+  background-color: #FECC51;
+}
+
+.from-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.from-line hr {
+  width: 100%;
+  color: #DEDEDE;
+}
+
+.form-check-input {
+  border: 1px solid #212121;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 50%;
+}
+
+.form-check-input:checked {
+  background: #212121 !important;
+  border: 2px solid white !important;
+  outline: 2px solid #212121 !important;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+  border-color: #212121;
+}
+
+/* =======================================
+           contact page end
+=========================================*/
+
+/* =======================================
+           cart page start
+=========================================*/
+.table> :not(caption)>*>* {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 0;
+  color: #222121;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-right: 110px;
+  vertical-align: middle;
+}
+
+.cart-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.cart-wrapper img {
+  max-width: 200px;
+}
+
+.cart-btn {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border: 1px solid #C4C4C4;
+  background-color: #fff;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.cart-btn:hover {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.cart-quantity {
+  width: 90px;
+}
+
+.cart-subtotal {
+  border-bottom-style: hidden;
+}
+
+/* =======================================
+           cart page end
+=========================================*/
+
+/* =======================================
+           privacy page start
+=========================================*/
+.privacy-content h2 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 48px;
+}
+
+.privacy-content h3 {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 24px;
+}
+
+.privacy-content p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  padding-bottom: 48px;
+}
+
+.privacy-content > :last-child {
+  padding-bottom: 0;
+}
+
+/* =======================================
+           privacy page end
+=========================================*/
+
+/* =======================================
+           footer css start
+=========================================*/
+.list-icon {
+  padding: 8px 10px;
+  color: #fff;
+  border: 1px solid #999999;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.list-icon:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #212121;
+}
+
+.list-icon:hover i {
+  color: #212121;
+}
+
+.footer-list li a:hover {
+  color: #FECC51;
+}
+
+/* =======================================
+           footer css end
+=========================================*/
+
+/* =======================================
+           back to top css start
+=========================================*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+#myBtn:hover {
+  background-color: #FECC51;
+  color: #212121;
+}
+
+/* =======================================
+           back to top css end
+=========================================*/

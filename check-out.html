@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akori | Checkout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logo/fev-icon.jpg" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+        <!-- ===============================================
+                        navbar part start
+        =================================================-->
+        <nav class="navbar py-3 border-bottom navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo/logo.png" alt="logo">
+                </a>
+                <!-- navbar search bar start -->
+                <button type="button" class="btn btn-primary order-lg-1 ms-auto me-2 me-lg-0" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" title="search bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content p-2">
+                            <form role="search" class="d-flex">
+                                <input class="h6 mb-0 form-control rounded-0 rounded-start border-end-0 border-0"
+                                    type="search" placeholder="Search" aria-label="Search" />
+                                <button class="btn border-start border-0 px-3" type="submit" title="search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar search bar end -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" title="navbar-dropdown">
+                    <div class="side-btn-wrapper">
+                        <div class="side-btn"><span></span><span></span><span></span></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="blog.html">
+                                Blog <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu text-center text-lg-start">
+                                <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="portfolio.html">
+                                portfolio <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu text-center text-lg-start">
+                                <li><a class="dropdown-item" href="portfolio-filter.html">Portfolio filter</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio 2</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">
+                                Pages <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu text-center text-lg-start">
+                                <li><a class="dropdown-item" href="about.html">About </a></li>
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                                <li><a class="dropdown-item" href="portfolio.html">Portfolio </a></li>
+                                <li><a class="dropdown-item" href="portfolio-filter.html">Portfolio-filter Page</a></li>
+                                <li><a class="dropdown-item" href="shop.html">Shop </a></li>
+                                <li><a class="dropdown-item" href="product-single.html">Product Single</a></li>
+                                <li><a class="dropdown-item" href="privacy.html">Privacy </a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact </a></li>
+                                <li><a class="dropdown-item" href="sign-up.html">Sign Up </a></li>
+                                <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                                <li><a class="dropdown-item" href="check-out.html">Checkout</a></li>
+                                <li><a class="dropdown-item" href="payment.html">Payment</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ===============================================
+                        navbar part end
+        =================================================-->
+    </header>
+    <main>
+        <!-- ===============================================
+                        page header part start
+        =================================================-->
+        <section class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="page-title">checkout<span></span></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===============================================
+                        page header part start
+        =================================================-->
+
+        <!-- ===============================================
+                        check-out page start
+        =================================================-->
+        <section class="section pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 pe-lg-5">
+                        <h2 class="h4 fw-bold mb-4">Billing Details</h2>
+                        <form class="row g-3" action="#">
+                            <div class="col-md-6">
+                                <label class="from-label" for="first_name">First Name</label>
+                                <input type="text" id="first_name" class="from-control"
+                                    placeholder="Type Your Name Here">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="from-label" for="last_name">Last Name</label>
+                                <input type="text" id="last_name" class="from-control"
+                                    placeholder="Type Your Name Here">
+                            </div>
+                            <div class="col-12">
+                                <label class="from-label" for="country">Country / Region</label>
+                                <input type="text" id="country" class="from-control" placeholder="Country / Region">
+                            </div>
+                            <div class="col-12">
+                                <label class="from-label" for="address">Street address</label>
+                                <input type="text" id="address" class="from-control" placeholder="your address here">
+                            </div>
+                            <div class="col-12">
+                                <label class="from-label" for="state">State</label>
+                                <input type="text" id="state" class="from-control" placeholder="Dhaka">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="from-label" for="city">City</label>
+                                <input type="text" id="city" class="from-control" placeholder="Mirp|">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="from-label" for="zip-code">Zip code</label>
+                                <input type="text" id="zip-code" class="from-control" placeholder="your address here">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="from-label" for="zip-code">Phone</label>
+                                <input type="tel" min="0" id="phone" class="from-control" placeholder="your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="from-label" for="email">Email</label>
+                                <input class="from-control" type="email" id="email" placeholder="Type Your email">
+                            </div>
+                            <div class="col-md-12">
+                                <label class="from-label" for="note">Note</label>
+                                <textarea class="from-control" rows="5" name="message" id="note"
+                                    placeholder="Type your note here"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="different_address">
+                                    <label class="from-label" for="different_address">
+                                        Ship to a different address?
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="comment-from-btn gap-3 d-flex flex-wrap align-items-center">
+                                    <button type="submit">continue to payment</button>
+                                    <div class="login ps-3 pt-0">
+                                        <a class="h6 fw-normal p" href="cart.html">
+                                            Return to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-5 mt-5 mt-lg-0">
+                        <div class="cart-right border p-3">
+                            <div class="cart-item mt-3 pt-4 pb-4 border-bottom">
+                                <h2 class="h4 fw-bold mb-3 pb-3">Your Cart</h2>
+                                <div class="row align-items-center">
+                                    <div class="col-4">
+                                        <img src="images/Shop/cotton-mask/cotton-mask.jpg" alt="cotton-mask"
+                                            class="w-100 img-fluid">
+                                    </div>
+                                    <div class="col-5 col-lg-6 col-xxl-4 col-sm-4">
+                                        <h3 class="fw-normal h6">Twenty Bits I Learned About Making Fonts Book
+                                        </h3>
+                                    </div>
+                                    <div class="col-3 col-sm-2 ms-auto">
+                                        <h4 class="h5 fw-normal">23$</h4>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center pt-4">
+                                    <div class="col-4">
+                                        <img src="images/Shop/black-t-shirt.png" alt="black-t-shirt"
+                                            class="w-100 img-fluid">
+                                    </div>
+                                    <div class="col-5 col-lg-6 col-xxl-4 col-sm-4">
+                                        <h3 class="fw-normal h6">Twenty Bits I Learned About Making Fonts Book
+                                        </h3>
+                                    </div>
+                                    <div class="col-3 col-sm-2 ms-auto">
+                                        <h4 class="h5 fw-normal">9$</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <form class="row py-4 border-bottom g-3 justify-content-between" action="#">
+                                <div class="col-12 col-lg-8 col-xxl-9 col-sm-9">
+                                    <input type="text" id="discount_code" class="from-control"
+                                        placeholder="Discount Code">
+                                </div>
+                                <div class="col-6 col-lg-4 col-xxl-3 col-sm-3">
+                                    <div class="comment-from-btn text-sm-end">
+                                        <button type="submit">apply</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="shoping-wrapper pt-4 pb-4 border-bottom">
+                                <div class="sub-total mb-3 d-flex justify-content-between">
+                                    <h4 class="h6">Subtotal</h4>
+                                    <h4 class="h6">32$</h4>
+                                </div>
+                                <div class="sub-total d-flex justify-content-between">
+                                    <h4 class="h6">Shipping</h4>
+                                    <h4 class="h6">5$</h4>
+                                </div>
+                            </div>
+                            <div class="sub-total pt-4 d-flex justify-content-between">
+                                <h4 class="h6">Total</h4>
+                                <h4 class="h6">37$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===============================================
+                        check-out page end
+        =================================================-->
+
+        <!-- ===============================================
+                        footer part start
+        =================================================-->
+        <section class="section bg-dark mt-5">
+            <div class="container">
+                <div class="row justify-content-space-between gap-lg-5">
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="index.html"><img src="images/logo/footer-logo.png" alt="footer-logo"></a>
+                        <p class="pt-3 color-c4 fw-normal p">Quisque sem ipsum, placerat nec tortor
+                            vel, blandit vestibulum libero.</p>
+                        <h2 class="h5 fw-bold text-white pb-4 pt-5">
+                            follow on:
+                        </h2>
+                        <ul class="d-flex flex-wrap align-items-center">
+                            <li class="me-3"><a href="#"><i class="fa-brands fa-twitter list-icon"></i></a>
+                            </li>
+                            <li class="me-3"><a href="#"><i class="fa-brands fa-instagram list-icon"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-rss list-icon"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 pt-4 pt-sm-0">
+                        <h2 class="h5 fw-bold text-white text-capitalize">portfolio</h2>
+                        <ul class="pt-4">
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">mobile apps</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">brochures</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">theme templetes</a>
+                            </li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block">logo & branding</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 pt-4 pt-lg-0">
+                        <h2 class="h5 fw-bold text-white text-capitalize">blog</h2>
+                        <ul class="pt-4">
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">Design idea</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">typography</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">ux roles</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block">color sence</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 pt-4 pt-lg-0">
+                        <h2 class="h5 fw-bold text-white text-capitalize">Help & Support</h2>
+                        <ul class="pt-4">
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">contact</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">privacy policy</a>
+                            </li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block">terms & conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <p class="fw-normal color-c4 text-capitalize text-center">designed by <a class="color-c4"
+                            href="#">themefisher</a> and
+                        developed by
+                        <a class="color-c4" href="#">gethugothemes</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- ===============================================
+                        footer part end
+        =================================================-->
+    </main>
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+
+    <!-- ===============================================
+                    js link start
+    =================================================-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- ===============================================
+                    js link end
+    =================================================-->
+</body>
+
+</html>

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akori | Blog Single </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logo/fev-icon.jpg" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+        <!-- ===============================================
+                        navbar part start
+        =================================================-->
+        <nav class="navbar py-3 border-bottom navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo/logo.png" alt="logo">
+                </a>
+                <!-- navbar search bar start -->
+                <button type="button" class="btn btn-primary order-lg-1 ms-auto me-2 me-lg-0" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" title="search bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content p-2">
+                            <form role="search" class="d-flex">
+                                <input class="h6 mb-0 form-control rounded-0 rounded-start border-end-0 border-0"
+                                    type="search" placeholder="Search" aria-label="Search" />
+                                <button class="btn border-start border-0 px-3" type="submit" title="search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar search bar end -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" title="navbar-dropdown">
+                    <div class="side-btn-wrapper">
+                        <div class="side-btn"><span></span><span></span><span></span></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="blog.html">
+                                Blog <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu text-center text-lg-start">
+                                <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="portfolio.html">
+                                portfolio <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu text-center text-lg-start">
+                                <li><a class="dropdown-item" href="portfolio-filter.html">Portfolio filter</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio 2</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">
+                                Pages <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu text-center text-lg-start">
+                                <li><a class="dropdown-item" href="about.html">About</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                                <li><a class="dropdown-item" href="portfolio.html">Portfolio</a></li>
+                                <li><a class="dropdown-item" href="portfolio-filter.html">Portfolio-filter</a></li>
+                                <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                                <li><a class="dropdown-item" href="product-single.html">Product Single</a></li>
+                                <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                <li><a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
+                                <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                                <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                                <li><a class="dropdown-item" href="check-out.html">Checkout</a></li>
+                                <li><a class="dropdown-item" href="payment.html">Payment</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ===============================================
+                        navbar part end
+        =================================================-->
+    </header>
+    <main>
+
+        <!-- ===============================================
+                        blog-single page start
+        =================================================-->
+        <section class="blog-single">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="blog-post-header">
+                            <h1 class="h2 fw-semibold pb-4 text-capitalize">Want to learn about typography? this article
+                                is
+                                for you</h1>
+                            <p class="h6 fw-normal pb-4 mb-3 text-capitalize">31 march 2021 - technology - post by Jason
+                                ratul</p>
+                            <img src="images/blog/typography/typography-img1.jpg" alt="typography-img1"
+                                class="w-100 img-fluid">
+                            <p class="fw-light pt-4 mt-3">Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum
+                                libero. Morbi sollicitudin
+                                viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar
+                                vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam. Nullam ultricies sem
+                                vel vestibulum congue. In gravida enim in orci pellentesque, in aliquam felis faucibus.
+                                Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero.</p>
+                            <p class="fw-light pt-4">Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum
+                                libero.
+                                Morbi
+                                sollicitudin
+                                viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar
+                                vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam.</p>
+                        </div>
+                        <div class="row pt-4 mt-3">
+                            <div class="col-lg-6 col-sm-6 mb-5">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/portfolio4.jpg" alt="portfolio4" class="img-fluid">
+                                    <div class="overlay">
+                                        <div class="primary-btn">
+                                            <a class="" href="#">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 mb-5">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/portfolio6.jpg" alt="portfolio6" class="img-fluid">
+                                    <div class="overlay">
+                                        <div class="primary-btn">
+                                            <a class="" href="#">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="fw-light">Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi
+                            sollicitudin
+                            viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra</p>
+
+                        <div class="vintage pt-4 mb-3">
+                            <h2 class="h4 fw-semibold pb-2">From Vintage Geometric to Minimalist Totes</h2>
+                            <p class="fw-light pb-4">Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum
+                                libero.
+                                Morbi sollicitudin
+                                viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar
+                                vestibulum
+                                mi. Morbi bibendum convallis velit, sed fringilla diam.</p>
+                            <ul class="vintage-list">
+                                <li class="p fw-light pb-3"><span class="h6 fw-semibold">1.</span> Quisque sem ipsum,
+                                    placerat nec tortor vel,
+                                    blandit vestibulum</li>
+                                <li class="p fw-light pb-3"><span class="h6 fw-semibold">2.</span> Quisque sem ipsum,
+                                    placerat nec tortor vel, blandit vestibulum libero.</li>
+                                <li class="p fw-light"><span class="h6 fw-semibold">3.</span> Quisque sem ipsum,
+                                    placerat
+                                    nec tortor vel, blandit</li>
+                            </ul>
+                            <div class="vintage-icon">
+                                <div class="icon-text">
+                                    <a href="#">#Technology,</a>
+                                    <a href="#"> #design</a>
+                                </div>
+                                <div>
+                                    <ul class="icon-list">
+                                        <li><a href="#"><i class="fa-solid fa-share"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row post-row mt-5 pt-3 g-4">
+                            <h2 class="h3 fw-semibold text-capitalize mb-3 pb-3">Similar post</h2>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="blog-img">
+                                    <img src="images/blog/typography/similar-post1.jpg" alt="similar-post1"
+                                        class="img-fluid">
+                                </div>
+                                <div class="blog-text d-flex justify-content-center gap-3 mt-4">
+                                    <span class="h5 fw-semibold color-c4">02
+                                        jan.
+                                    </span>
+                                    <div">
+                                        <h4 class="h6 fw-normal text-capitalize text-color"><a href="blog-page.html">
+                                                sem ipsum, placerat nec tortor vel
+                                            </a></h4>
+                                        <p class="text-capitalize post-details">technology - 3 min. to read</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="blog-img">
+                                    <img src="images/blog/typography/similar-post2.jpg" alt="similar-post2"
+                                        class="img-fluid">
+                                </div>
+                                <div class="blog-text d-flex justify-content-center gap-3 mt-4">
+                                    <span class="h5 fw-semibold color-c4">02
+                                        jan.
+                                    </span>
+                                    <div">
+                                        <h4 class="h6 fw-normal text-capitalize text-color"><a href="blog-page.html">
+                                                sem ipsum, placerat nec tortor vel
+                                            </a></h4>
+                                        <p class="text-capitalize post-details">technology - 3 min. to read</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="blog-img">
+                                    <img src="images/blog/typography/similar-post3.jpg" alt="similar-post3"
+                                        class="img-fluid">
+                                </div>
+                                <div class="blog-text d-flex justify-content-center gap-3 mt-4">
+                                    <span class="h5 fw-semibold color-c4">02
+                                        jan.
+                                    </span>
+                                    <div">
+                                        <h4 class="h6 fw-normal text-capitalize text-color"><a href="blog-page.html">
+                                                sem ipsum, placerat nec tortor vel
+                                            </a></h4>
+                                        <p class="text-capitalize post-details">technology - 3 min. to read</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="from-line">
+                            <hr>
+                            <span class="h6 px-4 text-nowrap">1 Comment</span>
+                            <hr>
+                        </div>
+                        <div class="comment-item gap-3 border-bottom">
+                            <div class="comment-person">
+                                <img src="images/blog/typography/comment-person1.png" alt="comment-person1">
+                            </div>
+                            <div class="comment-text">
+                                <h5 class="h6 fw-normal text-capitalize">zdv dalmar</h5>
+                                <p class="person-details">FEBRUARY 25, 2019</p>
+                                <p class="fw-normal pb-3 pe-5">The game’s not big enough unless it scares you a
+                                    little.
+                                    Wait a minute –
+                                    you’ve been
+                                    declared dead. You can’t give orders around here. I’ll alert the crew.
+                                </p>
+                                <div class="replay-btn">
+                                    <a href="#"><i class="fa-solid fa-reply"></i>REPLY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-item gap-3 ps-5 border-bottom">
+                            <div class="comment-person">
+                                <img src="images/blog/typography/comment-person2.png" alt="comment-person2">
+                            </div>
+                            <div class="comment-text">
+                                <h5 class="h6 fw-normal text-capitalize">David doson</h5>
+                                <p class="person-details">FEBRUARY 25, 2019</p>
+                                <p class="fw-normal pb-3 pe-5">The game’s not big enough unless it scares you a
+                                    little.
+                                    Wait a minute –
+                                    you’ve been
+                                    declared dead. You can’t give orders around here. I’ll alert the crew.
+                                </p>
+                                <div class="replay-btn">
+                                    <a href="#"><i class="fa-solid fa-reply"></i>REPLY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="row g-3" action="#">
+                            <div class="col-md-12">
+                                <textarea class="from-control" rows="8" name="message" id="message"
+                                    placeholder="Type your comment here"></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" id="name" class="from-control" placeholder="Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="from-control" type="email" id="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-check mt-3 mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="from-label" for="flexCheckDefault">
+                                        Save my name, email, and website in this browser for the next time I comment.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="comment-from-btn">
+                                    <button type="submit">Post Comment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row pt-5 pt-lg-0">
+                            <div class="col-12 text-center">
+                                <h2 class="section-title"><span>popular posts</span></h2>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-img">
+                                    <img src="images/blog/typography/typography-img3.jpg" alt="typography-img3"
+                                        class="w-100 img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-text">
+                                    <h3><a href="#">Paylexi Landing Page Design</a></h3>
+                                    <p>technology</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center pt-4">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-img">
+                                    <img src="images/blog/typography/typography-img1.jpg" alt="typography-img1"
+                                        class="w-100 img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-text">
+                                    <h3><a href="#">Paylexi Landing Page Design</a></h3>
+                                    <p>technology</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center pt-4">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-img">
+                                    <img src="images/blog/typography/typography-img4.jpg" alt="typography-img4"
+                                        class="w-100 img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-text">
+                                    <h3><a href="#">Paylexi Landing Page Design</a></h3>
+                                    <p>technology</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center pt-4 mb-7">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-img">
+                                    <img src="images/blog/typography/similar-post2.jpg" alt="typography-img3"
+                                        class="w-100 img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="popular-post-text">
+                                    <h3><a href="#">Paylexi Landing Page Design</a></h3>
+                                    <p>technology</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 pt-5">
+                            <div class="col-lg-12">
+                                <div class="col-12 text-center">
+                                    <h2 class="section-title"><span>Categories</span></h2>
+                                </div>
+                                <div class="categorie-main">
+                                    <div
+                                        class="border-bottom d-flex justify-content-between align-items-center pb-3 mb-3">
+                                        <h4 class="h6 text-capitalize fw-semibold">Design</h4>
+                                        <p class="p fw-semibold">09</p>
+                                    </div>
+                                    <div
+                                        class=" border-bottom d-flex justify-content-between align-items-center pb-3 mb-3">
+                                        <h4 class="h6 text-capitalize fw-semibold">Graphics</h4>
+                                        <p class="p fw-semibold">05</p>
+                                    </div>
+                                    <div
+                                        class=" border-bottom d-flex justify-content-between align-items-center pb-3 mb-3">
+                                        <h4 class="h6 text-capitalize fw-semibold">Typography</h4>
+                                        <p class="p fw-semibold">09</p>
+                                    </div>
+                                    <div
+                                        class=" border-bottom d-flex justify-content-between align-items-center pb-3 mb-3">
+                                        <h4 class="h6 text-capitalize fw-semibold">UI/UX</h4>
+                                        <p class="p fw-semibold">10</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center pb-5 mb-4">
+                                        <h4 class="h6 text-capitalize fw-semibold">technology</h4>
+                                        <p class="p fw-semibold">03</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-12 text-center">
+                                    <h2 class="section-title w-fit title-svg mx-auto">tags<span></span></h2>
+                                </div>
+                                <div class="tag-btn">
+                                    <a href="#">design</a>
+                                    <a href="#">technology</a>
+                                    <a href="#">uI/UX</a>
+                                    <a href="#">graphics</a>
+                                    <a href="#">typography</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===============================================
+                        blog-single page start
+        =================================================-->
+
+        <!-- ===============================================
+                        footer part start
+        =================================================-->
+        <section class="section bg-dark mt-5">
+            <div class="container">
+                <div class="row justify-content-space-between gap-lg-5">
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="index.html"><img src="images/logo/footer-logo.png" alt="footer-logo"></a>
+                        <p class="pt-3 color-c4 fw-normal p">Quisque sem ipsum, placerat nec tortor
+                            vel, blandit vestibulum libero.</p>
+                        <h2 class="h5 fw-bold text-white pb-4 pt-5">
+                            follow on:
+                        </h2>
+                        <ul class="d-flex flex-wrap align-items-center">
+                            <li class="me-3"><a href="#"><i class="fa-brands fa-twitter list-icon"></i></a>
+                            </li>
+                            <li class="me-3"><a href="#"><i class="fa-brands fa-instagram list-icon"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-rss list-icon"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 pt-4 pt-sm-0">
+                        <h2 class="h5 fw-bold text-white text-capitalize">portfolio</h2>
+                        <ul class="pt-4">
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">mobile apps</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">brochures</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">theme templetes</a>
+                            </li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block">logo & branding</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 pt-4 pt-lg-0">
+                        <h2 class="h5 fw-bold text-white text-capitalize">blog</h2>
+                        <ul class="pt-4">
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">Design idea</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">typography</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">ux roles</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block">color sence</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 pt-4 pt-lg-0">
+                        <h2 class="h5 fw-bold text-white text-capitalize">Help & Support</h2>
+                        <ul class="pt-4">
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">contact</a></li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block mb-3">privacy policy</a>
+                            </li>
+                            <li><a href="#" class="p color-c4 text-capitalize d-inline-block">terms & conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <p class="fw-normal color-c4 text-capitalize text-center">designed by <a class="color-c4"
+                            href="#">themefisher</a> and
+                        developed by
+                        <a class="color-c4" href="#">gethugothemes</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- ===============================================
+                        footer part end
+        =================================================-->
+    </main>
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+    <!-- ===========================================
+                 back to top button
+    =============================================-->
+
+    <!-- ===============================================
+                    js link start
+    =================================================-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- ===============================================
+                    js link end
+    =================================================-->
+</body>
+
+</html>
